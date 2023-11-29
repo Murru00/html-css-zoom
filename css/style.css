@@ -6,11 +6,9 @@
 }
 
 header{
-    display: flex;
-    background-color: rgb(38, 38, 38);
-    height: 80px;
-    display: flex;
-    justify-content: end;
+    margin-bottom: 2rem;
+    
+    
 
 }
 .header-right{
@@ -19,10 +17,28 @@ header{
     font-size: 10px;
 
 }
-.wrapper{
-    background-color: ;
-}
 
+ /* #product{
+     background-color: red; 
+    height: 100vh;
+
+}  */
+
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    min-height: 100%;
+
+
+}
+.card{
+    aspect-ratio: 16/9;
+    width: calc(100% / 7 - 10px);
+    background-color: blue;
+    margin-bottom: 10px;
+    min-width: 100px;
+}
 img{
     max-width: 100%;
 }
@@ -54,5 +70,5 @@ a{
 .debug{
     min-height: 80px;
     background-color: burlywood;
-    padding: 2rem;
+    padding: 1rem;
 }
